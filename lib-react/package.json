@@ -1,0 +1,29 @@
+{
+  "name": "@ropotober/react-ui-library",
+  "version": "1.0.0",
+  "description": "Librería de componentes para React",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "npx tsc -p ."
+  },
+  "keywords": [
+    "react-lib",
+    "react-components",
+    "react-ui",
+    "ui",
+    "javascript",
+    "react"
+  ],
+  "author": "Roberto Rodríguez Carbonell",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "react": "^18.3.1",
+    "tsc-watch": "^6.2.0",
+    "typescript": "^5.6.3"
+  },
+  "peerDependencies": {
+    "react": "^16.11.0"
+  }
+}
