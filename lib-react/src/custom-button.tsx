@@ -10,8 +10,10 @@ export interface RopoButtonProps extends ButtonHTMLAttributes<HTMLButtonElement>
     rounded?: 'none' | 'sm' | 'md' | 'full';
     shadow?: 'none' | 'sm' | 'md' | 'lg';
     animation?: 'none' | 'pulse' | 'bounce' | 'shake';
-    animationDuration?: string; // Duración de la animación
-    animationInterval?: string; // Intervalo entre repeticiones de la animación
+    // Duración de la animación
+    animationDuration?: string; 
+    // Intervalo entre repeticiones de la animación
+    animationInterval?: string; 
     icon?: React.ReactNode;
     iconPosition?: 'left' | 'right';
     loading?: boolean;
@@ -30,8 +32,10 @@ const RopoButton: React.FC<RopoButtonProps> = ({
     rounded = 'md',
     shadow = 'md',
     animation = 'none',
-    animationDuration = '0.82s', // Valor por defecto para la duración de la animación
-    animationInterval = '3s', // Valor por defecto para el intervalo entre repeticiones
+    // Valor por defecto para la duración de la animación
+    animationDuration = '0.82s', 
+    // Valor por defecto para el intervalo entre repeticiones
+    animationInterval = '3s', 
     icon,
     iconPosition = 'left',
     loading = false,
