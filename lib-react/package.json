@@ -1,6 +1,6 @@
 {
   "name": "@ropotober/react-ui-library",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Librería de componentes para React",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
