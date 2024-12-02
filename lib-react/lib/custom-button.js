@@ -16,9 +16,11 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const react_1 = __importDefault(require("react"));
 const RopoButton = (_a) => {
-    var { width = '150px', height = '45px', backgroundColor = '#3b82f6', textColor = 'white', text = 'Click me', variant = 'solid', rounded = 'md', shadow = 'md', animation = 'none', animationDuration = '0.82s', // Valor por defecto para la duración de la animación
-    animationInterval = '3s', // Valor por defecto para el intervalo entre repeticiones
-    icon, iconPosition = 'left', loading = false, fontSize = '1rem', border, hoverEffect = 'scale', onClick, className = '' } = _a, props = __rest(_a, ["width", "height", "backgroundColor", "textColor", "text", "variant", "rounded", "shadow", "animation", "animationDuration", "animationInterval", "icon", "iconPosition", "loading", "fontSize", "border", "hoverEffect", "onClick", "className"]);
+    var { width = '150px', height = '45px', backgroundColor = '#3b82f6', textColor = 'white', text = 'RopoButton', variant = 'solid', rounded = 'sm', shadow = 'md', animation = 'none', 
+    // Valor por defecto para la duración de la animación
+    animationDuration = '0.82s', 
+    // Valor por defecto para el intervalo entre repeticiones
+    animationInterval = '3s', icon, iconPosition = 'left', loading = false, fontSize = '1rem', border, hoverEffect = 'scale', onClick, className = '' } = _a, props = __rest(_a, ["width", "height", "backgroundColor", "textColor", "text", "variant", "rounded", "shadow", "animation", "animationDuration", "animationInterval", "icon", "iconPosition", "loading", "fontSize", "border", "hoverEffect", "onClick", "className"]);
     const getBorderRadius = () => {
         const radiusMap = {
             none: '0px',

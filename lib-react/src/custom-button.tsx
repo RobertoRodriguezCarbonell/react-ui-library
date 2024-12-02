@@ -27,9 +27,9 @@ const RopoButton: React.FC<RopoButtonProps> = ({
     height = '45px',
     backgroundColor = '#3b82f6',
     textColor = 'white',
-    text = 'Click me',
+    text = 'RopoButton',
     variant = 'solid',
-    rounded = 'md',
+    rounded = 'sm',
     shadow = 'md',
     animation = 'none',
     // Valor por defecto para la duración de la animación

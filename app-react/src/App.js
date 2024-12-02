@@ -1,22 +1,26 @@
 import "./App.css";
 import { RopoButton } from "@ropotober/react-ui-library";
-import { FaCoffee } from "react-icons/fa"; // Importa el icono de FontAwesome
+import { FaPhone } from "react-icons/fa"; // Importa el icono de FontAwesome
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <RopoButton
-          text="Outline Button"
+          text="Contestar Llamada"
+          width={200}
           variant="gradient"
           animation="shake"
           textColor="#000000"
           animationDuration="0.82s"
           animationInterval="3s"
           backgroundColor="#87bd27"
-          icon={<FaCoffee />} // Añade el icono aquí
+          // Añade el icono aquí
+          icon={<FaPhone />}
+          rounded="md"
         />
         {/* Otros botones */}
+        <RopoButton />
       </header>
     </div>
   );
